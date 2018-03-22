@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E110B301206335BE00442AE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E110B300206335BE00442AE7 /* AppDelegate.swift */; };
+		E110B303206335BE00442AE7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E110B302206335BE00442AE7 /* FirstViewController.swift */; };
+		E110B305206335BE00442AE7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E110B304206335BE00442AE7 /* SecondViewController.swift */; };
+		E110B308206335BE00442AE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E110B306206335BE00442AE7 /* Main.storyboard */; };
+		E110B30A206335BE00442AE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E110B309206335BE00442AE7 /* Assets.xcassets */; };
+		E110B30D206335BE00442AE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E110B30B206335BE00442AE7 /* LaunchScreen.storyboard */; };
+		E110B318206335BE00442AE7 /* Freedie_PrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E110B317206335BE00442AE7 /* Freedie_PrototypeTests.swift */; };
+		E110B323206335BE00442AE7 /* Freedie_PrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E110B322206335BE00442AE7 /* Freedie_PrototypeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E110B314206335BE00442AE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E110B2F5206335BE00442AE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E110B2FC206335BE00442AE7;
+			remoteInfo = "Freedie Prototype";
+		};
+		E110B31F206335BE00442AE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E110B2F5206335BE00442AE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E110B2FC206335BE00442AE7;
+			remoteInfo = "Freedie Prototype";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E110B2FD206335BE00442AE7 /* Freedie Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Freedie Prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E110B300206335BE00442AE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E110B302206335BE00442AE7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		E110B304206335BE00442AE7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E110B307206335BE00442AE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E110B309206335BE00442AE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E110B30C206335BE00442AE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E110B30E206335BE00442AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E110B313206335BE00442AE7 /* Freedie PrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Freedie PrototypeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E110B317206335BE00442AE7 /* Freedie_PrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Freedie_PrototypeTests.swift; sourceTree = "<group>"; };
+		E110B319206335BE00442AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E110B31E206335BE00442AE7 /* Freedie PrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Freedie PrototypeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E110B322206335BE00442AE7 /* Freedie_PrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Freedie_PrototypeUITests.swift; sourceTree = "<group>"; };
+		E110B324206335BF00442AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E110B2FA206335BE00442AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E110B310206335BE00442AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E110B31B206335BE00442AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E110B2F4206335BE00442AE7 = {
+			isa = PBXGroup;
+			children = (
+				E110B2FF206335BE00442AE7 /* Freedie Prototype */,
+				E110B316206335BE00442AE7 /* Freedie PrototypeTests */,
+				E110B321206335BE00442AE7 /* Freedie PrototypeUITests */,
+				E110B2FE206335BE00442AE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E110B2FE206335BE00442AE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E110B2FD206335BE00442AE7 /* Freedie Prototype.app */,
+				E110B313206335BE00442AE7 /* Freedie PrototypeTests.xctest */,
+				E110B31E206335BE00442AE7 /* Freedie PrototypeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E110B2FF206335BE00442AE7 /* Freedie Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				E110B300206335BE00442AE7 /* AppDelegate.swift */,
+				E110B302206335BE00442AE7 /* FirstViewController.swift */,
+				E110B304206335BE00442AE7 /* SecondViewController.swift */,
+				E110B306206335BE00442AE7 /* Main.storyboard */,
+				E110B309206335BE00442AE7 /* Assets.xcassets */,
+				E110B30B206335BE00442AE7 /* LaunchScreen.storyboard */,
+				E110B30E206335BE00442AE7 /* Info.plist */,
+			);
+			path = "Freedie Prototype";
+			sourceTree = "<group>";
+		};
+		E110B316206335BE00442AE7 /* Freedie PrototypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E110B317206335BE00442AE7 /* Freedie_PrototypeTests.swift */,
+				E110B319206335BE00442AE7 /* Info.plist */,
+			);
+			path = "Freedie PrototypeTests";
+			sourceTree = "<group>";
+		};
+		E110B321206335BE00442AE7 /* Freedie PrototypeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E110B322206335BE00442AE7 /* Freedie_PrototypeUITests.swift */,
+				E110B324206335BF00442AE7 /* Info.plist */,
+			);
+			path = "Freedie PrototypeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E110B2FC206335BE00442AE7 /* Freedie Prototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E110B327206335BF00442AE7 /* Build configuration list for PBXNativeTarget "Freedie Prototype" */;
+			buildPhases = (
+				E110B2F9206335BE00442AE7 /* Sources */,
+				E110B2FA206335BE00442AE7 /* Frameworks */,
+				E110B2FB206335BE00442AE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Freedie Prototype";
+			productName = "Freedie Prototype";
+			productReference = E110B2FD206335BE00442AE7 /* Freedie Prototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E110B312206335BE00442AE7 /* Freedie PrototypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E110B32A206335BF00442AE7 /* Build configuration list for PBXNativeTarget "Freedie PrototypeTests" */;
+			buildPhases = (
+				E110B30F206335BE00442AE7 /* Sources */,
+				E110B310206335BE00442AE7 /* Frameworks */,
+				E110B311206335BE00442AE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E110B315206335BE00442AE7 /* PBXTargetDependency */,
+			);
+			name = "Freedie PrototypeTests";
+			productName = "Freedie PrototypeTests";
+			productReference = E110B313206335BE00442AE7 /* Freedie PrototypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E110B31D206335BE00442AE7 /* Freedie PrototypeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E110B32D206335BF00442AE7 /* Build configuration list for PBXNativeTarget "Freedie PrototypeUITests" */;
+			buildPhases = (
+				E110B31A206335BE00442AE7 /* Sources */,
+				E110B31B206335BE00442AE7 /* Frameworks */,
+				E110B31C206335BE00442AE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E110B320206335BE00442AE7 /* PBXTargetDependency */,
+			);
+			name = "Freedie PrototypeUITests";
+			productName = "Freedie PrototypeUITests";
+			productReference = E110B31E206335BE00442AE7 /* Freedie PrototypeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E110B2F5206335BE00442AE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Freedie;
+				TargetAttributes = {
+					E110B2FC206335BE00442AE7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E110B312206335BE00442AE7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E110B2FC206335BE00442AE7;
+					};
+					E110B31D206335BE00442AE7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E110B2FC206335BE00442AE7;
+					};
+				};
+			};
+			buildConfigurationList = E110B2F8206335BE00442AE7 /* Build configuration list for PBXProject "Freedie Prototype" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E110B2F4206335BE00442AE7;
+			productRefGroup = E110B2FE206335BE00442AE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E110B2FC206335BE00442AE7 /* Freedie Prototype */,
+				E110B312206335BE00442AE7 /* Freedie PrototypeTests */,
+				E110B31D206335BE00442AE7 /* Freedie PrototypeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E110B2FB206335BE00442AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E110B30D206335BE00442AE7 /* LaunchScreen.storyboard in Resources */,
+				E110B30A206335BE00442AE7 /* Assets.xcassets in Resources */,
+				E110B308206335BE00442AE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E110B311206335BE00442AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E110B31C206335BE00442AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E110B2F9206335BE00442AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E110B305206335BE00442AE7 /* SecondViewController.swift in Sources */,
+				E110B301206335BE00442AE7 /* AppDelegate.swift in Sources */,
+				E110B303206335BE00442AE7 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E110B30F206335BE00442AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E110B318206335BE00442AE7 /* Freedie_PrototypeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E110B31A206335BE00442AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E110B323206335BE00442AE7 /* Freedie_PrototypeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E110B315206335BE00442AE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E110B2FC206335BE00442AE7 /* Freedie Prototype */;
+			targetProxy = E110B314206335BE00442AE7 /* PBXContainerItemProxy */;
+		};
+		E110B320206335BE00442AE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E110B2FC206335BE00442AE7 /* Freedie Prototype */;
+			targetProxy = E110B31F206335BE00442AE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E110B306206335BE00442AE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E110B307206335BE00442AE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E110B30B206335BE00442AE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E110B30C206335BE00442AE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E110B325206335BF00442AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E110B326206335BF00442AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E110B328206335BF00442AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XK487GNJL9;
+				INFOPLIST_FILE = "Freedie Prototype/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Freedie.Freedie-Prototype";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E110B329206335BF00442AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XK487GNJL9;
+				INFOPLIST_FILE = "Freedie Prototype/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Freedie.Freedie-Prototype";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E110B32B206335BF00442AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XK487GNJL9;
+				INFOPLIST_FILE = "Freedie PrototypeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Freedie.Freedie-PrototypeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Freedie Prototype.app/Freedie Prototype";
+			};
+			name = Debug;
+		};
+		E110B32C206335BF00442AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XK487GNJL9;
+				INFOPLIST_FILE = "Freedie PrototypeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Freedie.Freedie-PrototypeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Freedie Prototype.app/Freedie Prototype";
+			};
+			name = Release;
+		};
+		E110B32E206335BF00442AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XK487GNJL9;
+				INFOPLIST_FILE = "Freedie PrototypeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Freedie.Freedie-PrototypeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Freedie Prototype";
+			};
+			name = Debug;
+		};
+		E110B32F206335BF00442AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XK487GNJL9;
+				INFOPLIST_FILE = "Freedie PrototypeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Freedie.Freedie-PrototypeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Freedie Prototype";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E110B2F8206335BE00442AE7 /* Build configuration list for PBXProject "Freedie Prototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E110B325206335BF00442AE7 /* Debug */,
+				E110B326206335BF00442AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E110B327206335BF00442AE7 /* Build configuration list for PBXNativeTarget "Freedie Prototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E110B328206335BF00442AE7 /* Debug */,
+				E110B329206335BF00442AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E110B32A206335BF00442AE7 /* Build configuration list for PBXNativeTarget "Freedie PrototypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E110B32B206335BF00442AE7 /* Debug */,
+				E110B32C206335BF00442AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E110B32D206335BF00442AE7 /* Build configuration list for PBXNativeTarget "Freedie PrototypeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E110B32E206335BF00442AE7 /* Debug */,
+				E110B32F206335BF00442AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E110B2F5206335BE00442AE7 /* Project object */;
+}
